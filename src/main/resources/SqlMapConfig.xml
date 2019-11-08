@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+    <!-- 配置连接数据库的信息 -->
+  <!--  <properties resource="jdbcConfig.properties"></properties>-->
+
+
+    <!--设置别名-->
+    <typeAliases>
+        <package name="com.qf.domain"/>
+    </typeAliases>
+
+    <mappers>
+        <mapper resource="mapper/AccountDao.xml"/>
+    </mappers>
+
+</configuration>
